@@ -1,0 +1,13 @@
+en:
+  test: "This is a test"
+  errors:
+    snake:
+      give_both: "Please give both start and end"
+      head_n_tail: "Snake Head must be greater than it's Tail"
+      head_tail_value: "Snake head must be between (2-99). Snake tail must be between (1-98)"
+    ladder:
+      give_both: "Please give both start and end"
+      start_n_end: "Ladder Start must be less than it's end"
+      head_tail_value: "Ladder start head must be between (1-98). Ladder tail must be between (2-99)"
+    player:
+      name: "Please give name"
