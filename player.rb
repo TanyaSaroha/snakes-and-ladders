@@ -7,4 +7,17 @@ class Player
     @name = name
     @position = position
   end
+
+  def self.input(n)
+    print "Player #{n}: "
+    name = gets.chomp
+  
+    if !name
+      puts I18n.t('errors.player.name')
+      self.input(n)
+    else
+      Player.new(n, name, 0)
+    end
+  end
+  
 end
