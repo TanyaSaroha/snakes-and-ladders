@@ -26,7 +26,9 @@ class Game
         if new_position == 100
           @winner = plr
           puts "Player #{plr.name} rolled a #{aaya} and position changed from #{old_position} to #{new_position}"
-          puts "We have a winner #{@winner.name}"
+          puts "$$$$$$$$$$ $$$$$$$$ $$$$$$$$$$$ $$$$$$$$$$ $$$$$$$$$ $$$$$$$$$$"
+          puts "$$$$$$$$$$ We have a winner #{@winner.name} $$$$$$$$$$"
+          puts "$$$$$$$$$$ $$$$$$$$ $$$$$$$$$$$ $$$$$$$$$$ $$$$$$$$$ $$$$$$$$$$"
           break
         elsif new_position > 100
           puts "Player #{plr.name} rolled a #{aaya} and position cannot changed from #{old_position}"
